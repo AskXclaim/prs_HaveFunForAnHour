@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStation.UnitTests", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnHourOfFun.Api", "src\Api\AnHourOfFun.Api\AnHourOfFun.Api.csproj", "{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnHourOfFun.Api.UnitTests", "src\Api\AnHourOfFun.Api.UnitTests\AnHourOfFun.Api.UnitTests.csproj", "{B32EB68B-5AE4-4724-BA56-620D8609E175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32EB68B-5AE4-4724-BA56-620D8609E175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32EB68B-5AE4-4724-BA56-620D8609E175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32EB68B-5AE4-4724-BA56-620D8609E175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32EB68B-5AE4-4724-BA56-620D8609E175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
