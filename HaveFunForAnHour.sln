@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStation", "src\Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStation.UnitTests", "src\Application\GameStation.UnitTests\GameStation.UnitTests.csproj", "{FFFACF36-22CD-4436-82D7-8DA887BFCAB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnHourOfFun.Api", "src\Api\AnHourOfFun.Api\AnHourOfFun.Api.csproj", "{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FFFACF36-22CD-4436-82D7-8DA887BFCAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFFACF36-22CD-4436-82D7-8DA887BFCAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFFACF36-22CD-4436-82D7-8DA887BFCAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E57F65-1BEF-4251-BE7E-797AC5C779F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
