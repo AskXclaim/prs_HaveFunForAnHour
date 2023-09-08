@@ -1,0 +1,103 @@
+:root{
+    --primary-text:rgba(0, 0, 0, 0.5)
+}
+body {
+    background-color: #E9F1FA;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    min-width: 950px;
+}
+
+.center {
+    text-align: center;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+    padding: 10px 0;
+    justify-content: center;
+    vertical-align: center;
+}
+.select-player{
+    margin: 10px;
+    padding: 10px;
+    font-size:large;
+}
+.select-player span{
+    margin: 10px;
+    font-size: larger;
+}
+
+
+.player {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 20vh;
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.player-name-score{
+    font-size: large;
+    font-weight: bold;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+.selected-option{
+    display: flex;
+    margin: 10px;
+    font-size: larger;
+    height: 80%;
+    align-self: center;
+    align-items: center;
+}
+
+.rounded-btn{
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: #00ABE4;
+}
+.rounded-btn:hover{
+    font-size: medium;
+    background-color: #076b8d;
+}
+
+.reset-btn{
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: medium;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.reset-btn:hover{
+    font-size: large;
+    background-color: #191e27;
+}
+
+.score-card{
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+    background-color: #ffffff;
+    height: 50px;
+    margin: 40px auto;
+}
+.score-text{
+    padding-top:10px ;
+}
