@@ -1,5 +1,7 @@
 namespace AnHourOfFun.Api.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class TwoPlayerRpsGameController : Controller
 {
     private readonly ILogger<TwoPlayerRpsGameController> _logger;

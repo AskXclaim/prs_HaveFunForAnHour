@@ -1,9 +1,17 @@
-
+const string allowAllCors = "AllowAll";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddScoped<IGameRules, TwoPlayerRockPaperScissorGameRules>();
+builder.Services.AddScoped<IGame, RockPaperScissorGame>();
 builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(allowAllCors, corsPolicyBuilder =>
+        corsPolicyBuilder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -18,9 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors(allowAllCors);
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
